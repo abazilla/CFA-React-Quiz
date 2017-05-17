@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: linear-gradient(-170deg, #B0443D 0%, #2376ae 100%);
+  background-attachment: fixed;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}

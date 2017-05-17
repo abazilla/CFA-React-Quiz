@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn-primary {
+  margin: 5px;
+  width: 25vw;
+  height: 100px;
+  background: none;
+  border-color: white;
+  display: inline;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.btn-primary:focus, .btn-primary:active:focus {
+  background: none;
+  border-color: white;
+  outline: none;
+}
+
+.btn-success, .btn-success:focus, .btn-success:active:focus {
+  background: none;
+  border-color: white;
+  outline: none;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:active:focus {
+  background: none;
+  border-color: #f0ad4e;
+  color: #f0ad4e;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+  background: none;
+  border-color: #f0ad4e;
+  color: #f0ad4e;
+}
+
+.bg-success {
+  width: inherit;
+}
+
+.container {
+  background: rgba(0,0,0,0.2);
+  border-radius: 16px;
+}
+
+.progBar{
+  width: 15vw;
+  margin: 0 auto;
+}
+
+.flex-container {
+}
+
+.center-float {
+  margin: 0 auto;
+}
+
+.floater {
+}
+
+.progress-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.progress-wrapper {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	position: relative;
+}
+
+.text-color {
+  color: #f0ad4e;
+}
